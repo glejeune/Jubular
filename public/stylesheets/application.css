@@ -1,0 +1,387 @@
+
+body {
+  font-family:futura, arial, helvetica;
+  font-size:19px;
+  background-color:#232323;
+}
+
+form {
+  margin:0px;
+  padding:0px;
+}
+
+#form_wrapper {
+  border-bottom:1px solid #5E5D5E;
+  min-height:270px;
+}
+
+a {
+  color:#ffffff;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+h1 {
+  margin-bottom:0px;
+  padding-bottom:0px;
+  padding-top:0px;
+  margin-top:18px;
+  font-size:60px;
+  font-weight:normal;
+  letter-spacing:-3px;
+  margin-left:-6px;
+}
+
+h1 a,
+.birdseed_note a {
+  color:#F2F179;
+  text-decoration:none;
+}
+
+h1 a:hover,
+.birdseed_note a:hover {
+  color:#FFFFAA;
+}
+
+h2 {
+  margin-top:0px;
+  padding-top:0px;
+  font-size:20px;
+  font-weight:normal;
+  color:#F2F179;
+  margin-bottom:20px;
+  letter-spacing:-0.01em;
+}
+
+h3 {
+  color:#6178D8;
+  font-weight:normal;
+  margin-bottom:10px;
+  font-size:22px;
+  margin-top:22px;
+}
+
+#main {
+  width:1035px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+
+#inner {
+  position:relative;
+  text-align:left;
+  border:20px solid #e6e6e6;
+  padding:10px;
+  padding-right:15px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#5E5D5E;
+  color:#ffffff;
+}
+
+#match_string {
+  white-space:pre-wrap;
+}
+
+#match_string.match_string_nowrap {
+  white-space:pre;
+}
+
+#match_string, #match_captures, input[type="text"], textarea, .slash {
+  font-size:12px;
+  font-family:monaco, courier;
+}
+
+code {
+  font-family:monaco, courier;
+  font-weight:bold;
+}
+
+#regex {
+  width:800px;
+}
+
+#options {
+  width:80px;
+}
+
+.slash {        
+  font-size:20px;
+  margin-left:3px;
+  margin-right:3px;
+}
+
+#form_wrapper input[type="text"] {
+  font-size:16px;
+}
+
+#form_wrapper input[type="text"], #form_wrapper textarea {
+  background-color:#000000;
+  color:#ffffff;
+  padding:10px;
+  border:1px solid #DDDDDD;
+}
+
+.match {
+  padding:2px;
+  color:#0066B3;
+  background-color:#BFE4FF;
+}
+
+#test_and_result {
+  margin-top:10px;
+  margin-left:20px;
+  margin-right:3px;
+  text-align:left;
+  position:relative;
+}
+
+#test_string {
+  float:left;
+  padding-left:0px;
+  width:408px;
+  height:165px;
+}
+
+input[type="text"]:focus, textarea:focus {
+  background-color:#221e1e;
+}
+
+#test_string textarea {
+  width:100%;
+  height:125px;
+  margin-bottom:5px;
+}
+
+#result {
+  margin-left:450px;
+  width:490px;
+  margin-bottom:0px;
+}
+
+#match_string, #match_captures {
+  border:1px solid #DDDDDD;
+  padding:5px;
+  background-color:#000000;
+  color:#ffffff;
+  margin-bottom:10px;
+}
+
+#match_string_inner {
+  background-color:#000000;
+}
+
+#match_captures p {
+  font-family:futura, arial, helvetica;
+  font-variant:small-caps;
+  color: #84bde7;
+  font-size:12px;
+  margin-left:5px;
+  margin-top:8px;
+}
+
+.notice, .error {
+  padding:20px;
+  position:relative;
+  font-size:16px;
+  text-align:center;
+}
+
+.notice {
+  top:18px;
+  border:10px solid #779A73;
+  background-color:#CDF3C9;
+  color:#283A26;
+}
+
+.notice a {
+  color:#283A26;
+}
+
+.error {
+  top:50px;
+  background-color:#FDD2D2;
+  border:10px solid #D37979;
+  color:#4D3838;
+}
+
+label, .result_label {
+  letter-spacing:1px;
+  font-size:16px;
+}
+
+#ajax_note {
+  clear:both;
+  text-align:center;
+  color:#F2F179;
+  font-size:11px;
+  padding:0px;
+  margin:0px;
+  margin-top:0px;
+  margin-bottom:5px;
+}
+
+#ajax_note a {
+  color: #F2F179;
+}
+
+.form_controls {
+  clear:both;
+  text-align:center;
+  padding-bottom:10px;
+  padding-top:0px;
+}
+
+.form_controls a {
+  background-color:#6E6E6E;
+  padding:3px 10px 3px 10px;
+  margin-left:10px;
+  font-size:11px;
+  letter-spacing:1px;
+  text-decoration:none;
+}
+
+.form_controls a:hover {
+  background-color:#8B8B8B;
+}
+
+#regex_label {
+  padding-left:20px;
+}
+
+#quickref {
+  text-align:left;
+  background-color:#e6e6e6;
+  border:10px solid #5E5D5E;
+  font-size:13px;
+  padding:5px;
+}
+
+#quickref td {
+  padding-right:18px;
+}
+
+.birdseed {
+  margin-top:20px;
+  color:#ffffff;
+  font-size:14px;
+}
+
+.birdseed a {
+  color:#F2F179;
+}
+
+.birdseed_note {
+  font-size:12px;
+/*  letter-spacing:1px;*/
+  color:#9F9F9F;
+}
+
+.birdseed_note a {
+  text-decoration:none;
+}
+
+
+#ajax_loader_wrapper {
+  position:absolute;
+  bottom:10px;
+  right:10px;
+}
+
+#ad {
+  margin-top:20px;
+}
+
+
+#regex_options {
+  margin-top:8px;
+  margin-left:10px;
+  margin-right:10px;
+  border-top:1px solid #cecece;
+  padding-top:4px;
+  font-size:12px;
+}
+
+#regex_options p {
+  margin:3px;
+}
+
+#regex_options code {
+  margin-left:25px;
+  margin-right:8px;
+}
+
+#modal_birdseed {
+  display:none;
+}
+
+#insert_links,
+#test_settings,
+#test_settings label {
+  font-family:arial,helvetica;
+  font-size:10px;
+  padding:2px;
+}
+
+#test_settings {
+  padding-left:10px;
+}
+
+#test_settings input {
+  width: 13px;
+  height: 13px;
+  padding:0px;
+  margin:0px;
+  margin-left:3px;
+  margin-right:1px;
+  top:-1px;
+  vertical-align: bottom;
+  *overflow: hidden;
+}
+
+#test_settings label {
+  font-size:10px;
+  color:#BFBFBF;
+  letter-spacing:0px;
+}
+
+#insert_links {
+  color: #283A26;
+  background-color:#CDF3C9;
+}
+
+
+/* 
+  sadly this is needed to work around the left margin issue described here:
+  http://www.webmasterworld.com/css/3253181.htm
+*/
+#inner_test_string_wrapper {}
+
+#notice {
+  margin-top:-10px;
+  background-color:#FFFFAA;
+  border:4px solid #BEBF83;
+  border-top:0px;
+  font-size:13px;
+  padding:5px;
+  padding-top:7px;
+  color:#1F1F13;
+  width:920px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#notice a {
+  color:#1F1F13;
+}
+
+.invis_char {
+  color:#5F5F5F;
+}
+
+.match .invis_char {
+  color: #0066B3;
+}
